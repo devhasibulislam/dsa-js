@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>jQuery Models</title>
+    <meta name="jQuery Models" content="Collection of jQuery models">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="jqueryCSS.css">
+</head>
+<body>
+    <main>
+
+    <!-- #3: SELECTING ELEMENTS IN THE DOM EXAMPLE-->
+        <section role='region' class='selectingElements'>
+            <br>
+            <h3>Selecting elements in the DOM with plain JavaScript (see console output for example)</h3>
+            <h6 class="first">This is the first sentence.</h6>
+            <p id="second">This is the second sentence.</p>
+            <p class="third">This is the third sentence.</p> 
+            <ul>
+                <li class="listItem">this is a list item</li>
+                <li class="listItem">this is a second list item</li>
+                <li class="listItem">this is a third list item</li>
+            </ul>
+                        
+            <br>                      
+            <h3>HTML/CSS Methods examples below:</h3>
+                <p>This text is standard and should be black</p>
+                <p class='js-color-it-red'>This text was originally black but should be red if successful</p>
+                <p class='js-cross-it-out'>This text was orginally NOT crossed out</p>
+                <p class='hidden js-uncover-it'>This text was hidden, but if you see it, it was uncovered successfully</p>
+            
+            <br>
+            <h3>jQuery Event Methods Below:</h3>
+                <p class='hidden magic-text'>POOF I magically appeared! Click the "Hide Text" button and I'll disappear!</p>
+                <button id='appear'>Show Text</button>
+                <button id='disappear'>Hide Text</button>
+
+            <br>
+            <h3>jQuery Effects Methods Below:</h3>
+                <div class='block'></div>
+                <br>
+                <button id='fade-in'>Fade In</button>
+                <button id='fade-out'>Fade Out</button>
+                <button id='fade-toggle'>Fade Toggle</button>
+
+            <br>
+            <h3>jQuery Event Handlers Example Below:</h3>
+            <h3><span class='click-counter'>0</span> clicks</h3>
+            <button id='clicker'>Click me</button>
+
+            <br>
+            <h3>jQuery Event Object Example Below:</h3>
+            <input type='text' placeholder="Type here">
+            <button type="button">Click Me</button>
+            <div class="output"></div>
+
+            <br>
+            <h3>jQuery event.currentTarget Example Below:</h3>
+            <h4>what element did the user click?</h4>
+            <div>
+                <ul>
+                    <li>fee</li>
+                    <li>fie</li>
+                    <li>foe</li>
+                    <li>fum</li>
+                </ul>
+            </div>
+
+            <br>
+            <h3>jQuery event.preventDefault Example Below:</h3>
+            <form class="js-form">
+                <label for="user-text">Add an item</label>
+                <input type="text" id="user-text" placeholder="Type something here">
+                <input type="submit">
+            </form>
+            <p class="display-user-text"></p>
+
+
+    
+        </section>
+
+
+
+
+
+
+
+        
+    </main>  
+    <script src="jQuery.js"></script>
+</body>
+</html>
