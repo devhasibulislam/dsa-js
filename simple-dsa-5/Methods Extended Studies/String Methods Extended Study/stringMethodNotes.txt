@@ -1,0 +1,52 @@
+String Method Extended Studies
+==============================
+
+List of Sting Methods - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String
+===========================================================================================
+
+
+
+
+
+indexOf()	    Returns the position of the first found occurrence of a specified value in a string
+lastIndexOf()   	Returns the position of the last found occurrence of a specified value in a string
+repeat()  	Returns a new string with a specified number of copies of an existing string
+replace()	  Searches a string for a specified value, or a regular expression, and returns a new string where the specified values are replaced
+search()  	Searches a string for a specified value, or regular expression, and returns the position of the match
+startsWith()	  Checks whether a string begins with specified characters
+
+
+toString()  	Returns the value of a String object
+valueOf()	  Returns the primitive value of a String object
+
+
+
+
+
+split()	  Splits a string into an array of substrings
+slice() 	Extracts a part of a string and returns a new string
+
+substring()	  Extracts the characters from a string, between two specified indices
+endsWith()    determines whether a string ends with the characters of a specified string, returning true or false as appropriate
+
+toLowerCase()	  Converts a string to lowercase letters
+toUpperCase()	  Converts a string to uppercase letters
+
+padEnd()    method pads the current string with a given string (repeated, if needed) so that the resulting string reaches a given length. The padding is applied from the end of the current string
+padStart()   method pads the current string with another string (multiple times, if needed) until the resulting string reaches the given length. The padding is applied from the start of the current string.
+trim()	  Removes whitespace from both ends of a string
+trimRight()  method removes whitespace from the end of a string.
+trimLeft()   method removes whitespace from the beginning of a string. 
+
+includes()  	Checks whether a string contains the specified string/characters
+endsWith()  	Checks whether a string ends with specified string/characters
+concat()  	Joins two or more strings, and returns a new joined strings
+charAt()	Returns the character at the specified index (position)
+
+---------
+match() 	Searches a string for a match against a regular expression, and returns the matches  -- uses regx
+matchAll()     returns an iterator of all results matching a string against a regular expression, including capturing groups   -- uses regex
+toLocaleLowerCase() 	Converts a string to lowercase letters, according to the host's locale
+toLocaleUpperCase() 	Converts a string to uppercase letters, according to the host's locale
+localeCompare()	  Compares two strings in the current locale
+---------
